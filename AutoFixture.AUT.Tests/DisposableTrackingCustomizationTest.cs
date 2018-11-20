@@ -157,31 +157,6 @@ namespace AutoFixture
 
         #region Explore Class for Coverage Gain : Class (DisposableTrackingCustomization)
 
-        #region General Initializer : Class (DisposableTrackingCustomization) All Methods Explore Verification.
-
-        /// <summary>
-        ///     Class (<see cref="DisposableTrackingCustomization" />) explore and verify fields for coverage gain.
-        /// </summary>
-        [Test]
-        [Timeout(TestsTimeOut)]
-        [Category("AUT Initializer")]
-        [TestCase(MethodCustomize, 0)]
-        [TestCase(MethodDispose, 0)]
-        public void AUT_DisposableTrackingCustomization_All_Methods_Explore_Verify_Test(string name, int overloadingIndex = 0)
-        {
-            // Arrange
-            this.ValidateExecuteCondition(name);
-            var currentMethodInfo = this.GetMethodInfo(name, overloadingIndex);
-
-            // Act
-            this.ExploreMethodDynamically(currentMethodInfo);
-
-            // Assert
-            currentMethodInfo.ShouldNotBeNull();
-        }
-
-        #endregion
-
         #region General Initializer : Class (DisposableTrackingCustomization) All Properties Explore By Name
 
         /// <summary>
